@@ -42,7 +42,7 @@ public class homework {
 		}
 		MinMax minmaxobj = new MinMax(evalobj, board_state, mode, depth);
 		
-		File op = new File("Output.txt");
+		File op = new File("output.txt");
 		FileOutputStream fos;
 	   	try {
 	   	fos = new FileOutputStream(op);
@@ -56,7 +56,7 @@ public class homework {
 	   	minmaxobj.calculate(countPieces);
 	   	long endTime   = System.currentTimeMillis();
 		double totalTime = (endTime - startTime)/1000;
-		System.out.println("time : " + totalTime);
+		//System.out.println("time : " + totalTime);
 
 	}
 

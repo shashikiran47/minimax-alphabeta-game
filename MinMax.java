@@ -159,7 +159,7 @@ public class MinMax {
 			}
 		}
 		
-		System.out.println("val :" + max);
+		//System.out.println("val :" + max);
 		String[] tokens = action.split("\\+");
 		
 		char y = (char) (Integer.parseInt(tokens[2]) + 64);
